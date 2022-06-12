@@ -64,7 +64,7 @@ const record = [
 
 const superbowlWin = function(broncosRecords) {
 
-    const win = broncosRecords.find((broncosRecords) => broncosRecords.result === "W" )
+    const win = broncosRecords.find(broncosRecords => broncosRecords.result === "W" )
     console.log(win)
 
     if(win){
